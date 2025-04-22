@@ -1264,6 +1264,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "ethnum"
+version = "1.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0939f82868b77ef93ce3c3c3daf2b3c526b456741da5a1a4559e590965b6026b"
+
+[[package]]
 name = "event-listener"
 version = "2.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6683,6 +6689,7 @@ dependencies = [
  "borsh 1.5.7",
  "bytemuck",
  "bytemuck_derive",
+ "ethnum",
  "num-derive",
  "num-traits",
  "serde",
@@ -6775,6 +6782,7 @@ name = "spl-tlv-account-resolution"
 version = "0.10.0"
 dependencies = [
  "bytemuck",
+ "ethnum",
  "futures",
  "futures-util",
  "num-derive",
