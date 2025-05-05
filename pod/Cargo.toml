@@ -15,6 +15,7 @@ borsh = ["dep:borsh", "solana-pubkey/borsh"]
 borsh = { version = "1.5.7", features = ["derive", "unstable__schema"], optional = true }
 bytemuck = { version = "1.22.0" }
 bytemuck_derive = { version = "1.9.3" }
+ethnum = "1.5.1"
 num-derive = "0.4"
 num-traits = "0.2"
 serde = { version = "1.0.219", optional = true }

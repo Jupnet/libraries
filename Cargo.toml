@@ -26,3 +26,69 @@ config = "scripts/spellcheck.toml"
 pre-release-commit-message = "Publish {{crate_name}} v{{version}}"
 tag-message = "Publish {{crate_name}} v{{version}}"
 consolidate-commits = false
+
+[patch.crates-io]
+# solana-sdk
+solana-account-info =  { path = "../solana-sdk/account-info" }
+solana-clock =  { path = "../solana-sdk/clock" }
+solana-cpi =  { path = "../solana-sdk/cpi" }
+solana-decode-error =  { path = "../solana-sdk/decode-error" }
+solana-instruction =  { path = "../solana-sdk/instruction" }
+solana-msg =  { path = "../solana-sdk/msg" }
+solana-native-token =  { path = "../solana-sdk/native-token" }
+solana-program-entrypoint =  { path = "../solana-sdk/program-entrypoint" }
+solana-program-error =  { path = "../solana-sdk/program-error" }
+solana-program-memory =  { path = "../solana-sdk/program-memory" }
+solana-program-option =  { path = "../solana-sdk/program-option" }
+solana-program-pack =  { path = "../solana-sdk/program-pack" }
+solana-pubkey =  { path = "../solana-sdk/pubkey" }
+solana-rent =  { path = "../solana-sdk/rent"    }
+solana-sdk-ids =  { path = "../solana-sdk/sdk-ids" }
+solana-sysvar =  { path = "../solana-sdk/sysvar" }
+solana-feature-set =  { path = "../solana-sdk/feature-set" }
+solana-logger =  { path = "../solana-sdk/logger" }
+solana-message = { path = "../solana-sdk/message" }
+solana-sysvar-id = { path = "../solana-sdk/sysvar-id" }
+spl-pod = { path = "../libraries/pod" }
+solana-transaction-error = { path = "../solana-sdk/transaction-error" }
+solana-example-mocks =  { path = "../solana-sdk/example-mocks" }
+solana-program = { path = "../solana-sdk/program" }
+jupnet-bls-sdk = { path = "../solana-sdk/bls-sdk" }
+solana-transaction = { path = "../solana-sdk/transaction" }
+solana-hash = { path = "../solana-sdk/hash" }
+solana-signature = { path = "../solana-sdk/signature" }
+solana-last-restart-slot = { path = "../solana-sdk/last-restart-slot" }
+solana-slot-hashes = { path = "../solana-sdk/slot-hashes" }
+solana-epoch-rewards = { path = "../solana-sdk/epoch-rewards" }
+solana-epoch-schedule = { path = "../solana-sdk/epoch-schedule" }
+solana-signer = { path = "../solana-sdk/signer" }
+solana-vote-interface = { path = "../solana-sdk/vote-interface" }
+solana-reserved-account-keys = { path = "../solana-sdk/reserved-account-keys" }
+solana-packet = { path = "../solana-sdk/packet" }
+solana-sdk = { path = "../solana-sdk/sdk" }
+solana-account = { path = "../solana-sdk/account" }
+solana-loader-v4-interface = { path = "../solana-sdk/loader-v4-interface" }
+solana-rent-debits = { path = "../solana-sdk/rent-debits" }
+solana-genesis-config = { path = "../solana-sdk/genesis-config" }
+solana-fee-structure = { path = "../solana-sdk/fee-structure" }
+solana-stable-layout = { path = "../solana-sdk/stable-layout" }
+
+# solana
+solana-account-decoder =  { path = "../account-decoder" }
+solana-client =  { path = "../client" }
+solana-cli-output =  { path = "../cli-output" }
+solana-test-validator =  { path = "../test-validator" }
+solana-transaction-status =  { path = "../transaction-status" }
+solana-program-test =  { path = "../program-test" }
+solana-zk-sdk =  { path = "../zk-sdk" }
+solana-inline-spl =  { path = "../inline-spl" }
+solana-clap-v3-utils =  { path = "../clap-v3-utils" }
+solana-cli-config =  { path = "../cli-config" }
+solana-remote-wallet =  { path = "../remote-wallet" }
+solana-banks-interface =  { path = "../banks-interface" }
+solana-rpc-client =  { path = "../rpc-client" }
+solana-rpc-client-api =  { path = "../rpc-client-api" }
+solana-builtins = { path = "../builtins" }
+solana-bpf-loader-program = { path = "../programs/bpf_loader" }
+solana-transaction-context = { path = "../transaction-context" }
+solana-svm-rent-collector = { path = "../svm-rent-collector" }
